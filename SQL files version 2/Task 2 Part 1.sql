@@ -1,0 +1,3 @@
+select ORDER_ID,ITEM,AMOUNT,CUSTOMER_ID 
+from ORDERS 
+where AMOUNT > 1000; 
